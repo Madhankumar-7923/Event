@@ -1,0 +1,87 @@
+body{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+    text-align: center;
+
+    background-color: #F1E5D1;
+    color: black;
+}
+
+.header{
+    display: inline; 
+}
+
+h1{
+    color: #987070;
+    text-decoration: underline;
+}
+
+h2{
+    font-size: 25px;
+
+    color: #987070;
+    text-decoration: underline;
+}
+
+p{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.book-fair{
+    height: 300px;  
+    width: 70%;
+}
+
+
+.clothes-market{
+    height: 40%;
+    width: 70%;
+}
+
+.rules{
+    display: inline-block;
+
+    padding: 5px;
+
+
+    background-color: #987070;
+}
+
+.one{
+    display: inline;
+}
+
+.footer > *{
+    margin: 10px;
+}
+
+@media screen and (max-width: 360px){
+
+    body{
+        font-weight: 200;
+    }
+
+    .book-fair{
+        height: 130px;
+        width: 70%;
+    }
+
+    .rules{
+        padding-left: 20px;
+        padding-right: 20px;
+
+        text-align: center;
+    }
+
+    .one{
+        margin: 5px;
+    }
+
+    .footer h3, h4, h5{
+        margin: 5px;
+    }
+}
